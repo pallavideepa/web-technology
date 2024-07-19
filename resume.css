@@ -4,25 +4,26 @@
 	box-sizing: border-box;
 }
 :root {
-	--primary-color: #fabd91;
-	--text-color: #e9c1c1;
+	--primary-color: #602b05;
+	--text-color: #880d0d;
 }
 html {
 	font-size: 10px;
 }
 body {
 	font-family: Inter, sans-serif;
-	background-color: rgb(8, 41, 84);
-	color: rgb(222, 184, 184);
+	background-color: white;
+	color: rgb(241, 156, 156);
 }
 
 
 img {
 	width: 100%;
+
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: rgb(225, 137, 137);
 }
 .description {
 	margin-top: 1rem;
@@ -43,7 +44,7 @@ a {
 }
 .item_title {
 	font-size: 1.6rem;
-	color: white;
+	color: rgb(223, 120, 120);
 	font-weight: 500;
 	margin: 0.8rem 0;
 }
@@ -60,8 +61,8 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
-	grid-template-columns: 1fr 1fr;
+	background: white;
+	
 	gap: 4rem;
 }
 @media only screen and (max-width: 768px) {
@@ -106,7 +107,7 @@ a {
 	max-width: 250px;
 }
 .profile_name_firstName {
-	color: white;
+	color: black;
 	font-weight: 200;
 	font-size: clamp(2rem, 8vw, 4rem);
 	text-transform: uppercase;
@@ -114,7 +115,7 @@ a {
 	margin-bottom: -0.8rem;
 }
 .profile_name_lastName {
-	color: white;
+	color: black;
 	font-weight: 700;
 	font-size: clamp(2.5rem, 15vw, 7rem);
 	text-transform: uppercase;
@@ -157,6 +158,7 @@ a {
 
 .interest_items {
 	margin-top: 2rem;
+	margin-left: 20%;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -169,10 +171,13 @@ a {
 	align-items: center;
 	justify-content: center;
 	gap: 0.5rem;
+	margin-left: 20%;
 	color: var(--text-color);
+
 }
 .interest_item svg {
 	width: 2rem;
+	
 }
 
 
@@ -202,7 +207,7 @@ hr {
 	margin-top: 5rem;
 	margin-bottom: 1rem;
 	border: none;
-	border-top: 2px solid rgba(128, 128, 128, 0.229);
+	border-top: 2px solid rgba(228, 161, 161, 0.229);
 }
 @media only screen and (max-width: 768px) {
 	hr {
