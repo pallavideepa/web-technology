@@ -1,0 +1,75 @@
+.card1{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(46, 243, 124);
+    transition: transform 4s, height 4s, width 4s;
+    transform: rotate(180deg);
+}
+.card:hover{
+    height: 4rem;
+    width: 4rem;
+    transform: rotate(360deg);
+    margin-top: 2rem;
+}
+.card2{
+    height: 5rem;
+    width: 5rem;
+    animation-name: card2Animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 2rem;
+}
+@keyframes card2Animation{
+    from{margin-top: 10px; background-color: plum;}
+    to{margin-left: 10px; background-color: palegreen;}
+}
+.card3{
+    height: 5rem;
+    width: 5rem;
+    animation-name: card3Animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1rem;
+}
+@keyframes card3Animation{
+    0%{margin-left: 0rem; background-color: rgb(237, 237, 63);}
+    25%{margin-left: 2rem; background-color:firebrick;}
+    50%{margin-top: 2rem;margin-left: 2rem; background-color: rgb(49, 102, 173);}
+    75%{margin-top: 2rem;margin-left: 0rem; background-color: rgb(2, 41, 42);}
+    100%{margin-top: 5rem;margin-left: 0rem; background-color: rgb(93, 82, 74);}
+}
+.card4{
+    height: 8rem;
+    width: 7rem;
+    transform: rotate(90deg);
+    animation-name: card4Animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-bottom: 4rem;
+}
+@keyframes card4Animation{
+    from{margin-top: 25px; background-color: rgb(251, 61, 40);}
+    to{margin-left: 25px; background-color: rgb(41, 151, 215);}
+    0%{margin-left: 0rem; background-color: olive;}
+    25%{margin-left: 3rem; background-color: rgb(78, 9, 52);}
+    50%{margin-top: 3rem;margin-left: 3rem;background-color: rgb(36, 43, 47);}
+    75%{margin-top: 3rem;margin-left: 0rem;background-color: rgb(44, 3, 109);}
+    100%{margin-top: 2rem;margin-left: 0rem;background-color: rgb(102, 9, 102);}
+}
+.card5{
+    height: 10rem;
+    width: 10rem;
+    animation-name: card5Animation;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+    margin-top: 5rem;
+}
+@keyframes card5Animation{
+    from{margin-top: 25px; background-color: rgb(43, 13, 142);}
+    to{margin-left: 25px; background-color: rgb(252, 41, 252);}
+    0%{margin-left: 0rem; background-color: rgb(73, 241, 120);}
+    25%{margin-left: 2rem; background-color: rgb(221, 30, 30);}
+    50%{margin-top: 3rem;margin-left: 3rem;background-color: rgb(102, 16, 102);}
+    75%{margin-top: 3rem;margin-left: 0rem;background-color: rgb(57, 12, 4);}
+    100%{margin-top: 4rem;margin-left: 0rem;background-color: rgb(35, 15, 81);}
+}
